@@ -1,0 +1,44 @@
+module ALU(A, B, Sel, Q);
+
+	input [2:0] Sel;
+	input [15:0] A, B;
+	
+	output [15:0] Q;
+	
+	always_comb begin
+	
+	case(sel) begin
+		
+		0: Q = 0;
+		1: Q = A+B;
+		2: Q = A-B;
+		3: Q = A;
+		4: Q = A ^ B;
+		5: Q = A | B;
+		6: Q = A & B;
+		7: Q = A + 1;
+	endcase
+	
+	end
+	
+endmodule	
+
+module ALU_testbench;
+
+	logic [2:0] Sel;
+	logic [15:0] A, B, Q;
+	integer i;
+	
+	ALU dut(A, B, Sel, Q);
+	
+	assign A = 15;
+	assign B = 16;
+	
+	initial begin
+		for (i = 0; i < 8; i++) begin
+			Sel = i;
+			$monitor(Q);
+		end
+	
+	end
+endmodule	

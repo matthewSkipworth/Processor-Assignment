@@ -1,0 +1,238 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/UWT/TCES330/labs/Processor
+vALU
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1528317704
+!i10b 1
+!s100 kTE=WYn2XHeMhYB2@=Q2B0
+I_UfG7<<jj?gWQP47kbMY63
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 !s105 ALU_sv_unit
+S1
+R0
+Z5 w1528247487
+Z6 8./ALU.sv
+Z7 F./ALU.sv
+L0 1
+Z8 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z9 !s108 1528317704.000000
+Z10 !s107 ./ALU.sv|
+Z11 !s90 -reportprogress|300|./ALU.sv|
+!i113 1
+Z12 tCvgOpt 0
+n@a@l@u
+vALU_testbench
+R1
+R2
+!i10b 1
+!s100 FTAnU2egZWAOWji<288oT0
+ISPQ[[VRjDTjEZ<@6YJ66g2
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 28
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+n@a@l@u_testbench
+vData_Memory
+R2
+!i10b 1
+!s100 _8i<nBk?^N=nB7bdAY0Fb3
+ITGVViKoAe20g:A]a?gHzA0
+R3
+R0
+w1527889284
+8./Data_Memory.v
+F./Data_Memory.v
+Z13 L0 40
+R8
+r1
+!s85 0
+31
+R9
+!s107 ./Data_Memory.v|
+!s90 -reportprogress|300|./Data_Memory.v|
+!i113 1
+R12
+n@data_@memory
+vData_Path
+R1
+!s110 1528317703
+!i10b 1
+!s100 n?7B7TH3[nkz]XmhPEK442
+IfG8@WcDRP:G84DG5CcOC10
+R3
+Z14 !s105 Data_Path_sv_unit
+S1
+R0
+w1528317609
+Z15 8./Data_Path.sv
+Z16 F./Data_Path.sv
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1528317703.000000
+Z17 !s107 ./Data_Path.sv|
+Z18 !s90 -reportprogress|300|./Data_Path.sv|
+!i113 1
+R12
+n@data_@path
+vData_Path_testbench
+R1
+!s110 1528166147
+!i10b 1
+!s100 0]]eFf:z2R175jPeanIgU1
+IKdo2^Phb9LRRQEgaPFJoN3
+R3
+R14
+S1
+R0
+w1528165859
+R15
+R16
+L0 35
+R8
+r1
+!s85 0
+31
+!s108 1528166147.000000
+R17
+R18
+!i113 1
+R12
+n@data_@path_testbench
+vGenericDecoder
+Z19 !s110 1528325240
+!i10b 1
+!s100 9ozD]=JO8?i_9FUHEgLE33
+I_TODN_l5i<ziY_dc_Pd1G0
+R3
+R0
+w1528139840
+8./GenericDecoder2.v
+F./GenericDecoder2.v
+L0 6
+R8
+r1
+!s85 0
+31
+Z20 !s108 1528325240.000000
+!s107 ./GenericDecoder2.v|
+!s90 -reportprogress|300|./GenericDecoder2.v|
+!i113 1
+R12
+n@generic@decoder
+vMux_16_Bit_2_to_1
+R2
+!i10b 1
+!s100 O:<5KdG78IRSCG7Bi9?a[1
+I08Y?`bce8Ad0E<WCdVc4>2
+R3
+R0
+w1527889465
+8./Mux_16_Bit_2_to_1.v
+F./Mux_16_Bit_2_to_1.v
+R13
+R8
+r1
+!s85 0
+31
+R9
+!s107 ./Mux_16_Bit_2_to_1.v|
+!s90 -reportprogress|300|./Mux_16_Bit_2_to_1.v|
+!i113 1
+R12
+n@mux_16_@bit_2_to_1
+vRegisterDualOE
+R19
+!i10b 1
+!s100 bP:fgLiU2gW7ocgm7UGnU0
+I<XmXofJf4VY;:fQiML3VX3
+R3
+R0
+w1528134696
+8./RegisterDualOE.v
+F./RegisterDualOE.v
+L0 9
+R8
+r1
+!s85 0
+31
+R20
+!s107 ./RegisterDualOE.v|
+!s90 -reportprogress|300|./RegisterDualOE.v|
+!i113 1
+R12
+n@register@dual@o@e
+vRegisterFile
+R1
+R19
+!i10b 1
+!s100 ZH=iJmP3oW8Co6@Z>o8iL1
+IKiICg?0PkZ_cjJVnDcbJL0
+R3
+Z21 !s105 RegegisterFile_sv_unit
+S1
+R0
+Z22 w1528325102
+Z23 8./RegegisterFile.sv
+Z24 F./RegegisterFile.sv
+L0 10
+R8
+r1
+!s85 0
+31
+R20
+Z25 !s107 ./RegegisterFile.sv|
+Z26 !s90 -reportprogress|300|./RegegisterFile.sv|
+!i113 1
+R12
+n@register@file
+vRegisterFile_testbench
+R1
+R19
+!i10b 1
+!s100 aF@j^YQBd70Nf]bFgD8@>1
+ICa2KeX?3N<QoQ:NYfl_ad1
+R3
+R21
+S1
+R0
+R22
+R23
+R24
+L0 41
+R8
+r1
+!s85 0
+31
+R20
+R25
+R26
+!i113 1
+R12
+n@register@file_testbench

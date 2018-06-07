@@ -1,0 +1,2249 @@
+# Reading C:/intelFPGA_lite/17.0/modelsim_ase/tcl/vsim/pref.tcl
+# do Processor_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/RegisterDualOE.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:28:55 on Jun 06,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/RegisterDualOE.v 
+# -- Compiling module RegisterDualOE
+# 
+# Top level modules:
+# 	RegisterDualOE
+# End time: 19:28:55 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/GenericDecoder2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:28:55 on Jun 06,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/GenericDecoder2.v 
+# -- Compiling module GenericDecoder
+# 
+# Top level modules:
+# 	GenericDecoder
+# End time: 19:28:55 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/Data_Memory.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:28:55 on Jun 06,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/Data_Memory.v 
+# -- Compiling module Data_Memory
+# 
+# Top level modules:
+# 	Data_Memory
+# End time: 19:28:55 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/Mux_16_Bit_2_to_1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:28:55 on Jun 06,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/Mux_16_Bit_2_to_1.v 
+# -- Compiling module Mux_16_Bit_2_to_1
+# 
+# Top level modules:
+# 	Mux_16_Bit_2_to_1
+# End time: 19:28:56 on Jun 06,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/RegegisterFile.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:28:56 on Jun 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/RegegisterFile.sv 
+# -- Compiling module RegisterFile
+# -- Compiling module RegisterFile_testbench
+# 
+# Top level modules:
+# 	RegisterFile_testbench
+# End time: 19:28:56 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/Data_Path.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:28:56 on Jun 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/Data_Path.sv 
+# -- Compiling module Data_Path
+# 
+# Top level modules:
+# 	Data_Path
+# End time: 19:28:56 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/ALU.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:28:56 on Jun 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/ALU.sv 
+# -- Compiling module ALU
+# -- Compiling module ALU_testbench
+# 
+# Top level modules:
+# 	ALU_testbench
+# End time: 19:28:56 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/Data_Path_testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:28:56 on Jun 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/Data_Path_testbench.sv 
+# -- Compiling module Data_Path_testbench
+# 
+# Top level modules:
+# 	Data_Path_testbench
+# End time: 19:28:57 on Jun 06,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  Data_Path_testbench
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" Data_Path_testbench 
+# Start time: 19:28:57 on Jun 06,2018
+# Loading sv_std.std
+# Loading work.Data_Path_testbench
+# Loading work.Data_Path
+# Loading work.Data_Memory
+# Loading altera_mf_ver.altsyncram
+# Loading work.Mux_16_Bit_2_to_1
+# Loading lpm_ver.lpm_mux
+# Loading work.ALU
+# Loading work.RegisterFile
+# Loading work.GenericDecoder
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading work.RegisterDualOE
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Windows10  Hostname: DESKTOP-L0B8LK7  ProcessID: 4472
+#           Attempting to use alternate WLF file "./wlft05d6i9".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft05d6i9
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+do Processor_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/RegisterDualOE.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:38:33 on Jun 06,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/RegisterDualOE.v 
+# -- Compiling module RegisterDualOE
+# 
+# Top level modules:
+# 	RegisterDualOE
+# End time: 19:38:33 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/GenericDecoder2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:38:33 on Jun 06,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/GenericDecoder2.v 
+# -- Compiling module GenericDecoder
+# 
+# Top level modules:
+# 	GenericDecoder
+# End time: 19:38:33 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/Data_Memory.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:38:33 on Jun 06,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/Data_Memory.v 
+# -- Compiling module Data_Memory
+# 
+# Top level modules:
+# 	Data_Memory
+# End time: 19:38:34 on Jun 06,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/Mux_16_Bit_2_to_1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:38:34 on Jun 06,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/Mux_16_Bit_2_to_1.v 
+# -- Compiling module Mux_16_Bit_2_to_1
+# 
+# Top level modules:
+# 	Mux_16_Bit_2_to_1
+# End time: 19:38:34 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/RegegisterFile.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:38:34 on Jun 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/RegegisterFile.sv 
+# -- Compiling module RegisterFile
+# -- Compiling module RegisterFile_testbench
+# 
+# Top level modules:
+# 	RegisterFile_testbench
+# End time: 19:38:34 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/Data_Path.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:38:34 on Jun 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/Data_Path.sv 
+# -- Compiling module Data_Path
+# 
+# Top level modules:
+# 	Data_Path
+# End time: 19:38:34 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/ALU.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:38:34 on Jun 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/ALU.sv 
+# -- Compiling module ALU
+# -- Compiling module ALU_testbench
+# 
+# Top level modules:
+# 	ALU_testbench
+# End time: 19:38:34 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/Data_Path_testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:38:34 on Jun 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/Data_Path_testbench.sv 
+# -- Compiling module Data_Path_testbench
+# 
+# Top level modules:
+# 	Data_Path_testbench
+# End time: 19:38:34 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  Data_Path_testbench
+# End time: 19:38:36 on Jun 06,2018, Elapsed time: 0:09:39
+# Errors: 0, Warnings: 2
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" Data_Path_testbench 
+# Start time: 19:38:37 on Jun 06,2018
+# Loading sv_std.std
+# Loading work.Data_Path_testbench
+# Loading work.Data_Path
+# Loading work.Data_Memory
+# Loading altera_mf_ver.altsyncram
+# Loading work.Mux_16_Bit_2_to_1
+# Loading lpm_ver.lpm_mux
+# Loading work.ALU
+# Loading work.RegisterFile
+# Loading work.GenericDecoder
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading work.RegisterDualOE
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Windows10  Hostname: DESKTOP-L0B8LK7  ProcessID: 4472
+#           Attempting to use alternate WLF file "./wlftgzc8k6".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftgzc8k6
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+do Processor_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/RegisterDualOE.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:39:34 on Jun 06,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/RegisterDualOE.v 
+# -- Compiling module RegisterDualOE
+# 
+# Top level modules:
+# 	RegisterDualOE
+# End time: 19:39:34 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/GenericDecoder2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:39:34 on Jun 06,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/GenericDecoder2.v 
+# -- Compiling module GenericDecoder
+# 
+# Top level modules:
+# 	GenericDecoder
+# End time: 19:39:34 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/Data_Memory.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:39:34 on Jun 06,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/Data_Memory.v 
+# -- Compiling module Data_Memory
+# 
+# Top level modules:
+# 	Data_Memory
+# End time: 19:39:34 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/Mux_16_Bit_2_to_1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:39:34 on Jun 06,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/Mux_16_Bit_2_to_1.v 
+# -- Compiling module Mux_16_Bit_2_to_1
+# 
+# Top level modules:
+# 	Mux_16_Bit_2_to_1
+# End time: 19:39:34 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/RegegisterFile.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:39:34 on Jun 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/RegegisterFile.sv 
+# -- Compiling module RegisterFile
+# -- Compiling module RegisterFile_testbench
+# 
+# Top level modules:
+# 	RegisterFile_testbench
+# End time: 19:39:34 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/Data_Path.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:39:34 on Jun 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/Data_Path.sv 
+# -- Compiling module Data_Path
+# 
+# Top level modules:
+# 	Data_Path
+# End time: 19:39:34 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/ALU.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:39:35 on Jun 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/ALU.sv 
+# -- Compiling module ALU
+# -- Compiling module ALU_testbench
+# 
+# Top level modules:
+# 	ALU_testbench
+# End time: 19:39:35 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/Data_Path_testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:39:35 on Jun 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/Data_Path_testbench.sv 
+# -- Compiling module Data_Path_testbench
+# 
+# Top level modules:
+# 	Data_Path_testbench
+# End time: 19:39:35 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  Data_Path_testbench
+# End time: 19:39:37 on Jun 06,2018, Elapsed time: 0:01:00
+# Errors: 0, Warnings: 2
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" Data_Path_testbench 
+# Start time: 19:39:37 on Jun 06,2018
+# Loading sv_std.std
+# Loading work.Data_Path_testbench
+# Loading work.Data_Path
+# Loading work.Data_Memory
+# Loading altera_mf_ver.altsyncram
+# Loading work.Mux_16_Bit_2_to_1
+# Loading lpm_ver.lpm_mux
+# Loading work.ALU
+# Loading work.RegisterFile
+# Loading work.GenericDecoder
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading work.RegisterDualOE
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Windows10  Hostname: DESKTOP-L0B8LK7  ProcessID: 4472
+#           Attempting to use alternate WLF file "./wlftktxwsq".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftktxwsq
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+
+do Processor_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/RegisterDualOE.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:40:25 on Jun 06,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/RegisterDualOE.v 
+# -- Compiling module RegisterDualOE
+# 
+# Top level modules:
+# 	RegisterDualOE
+# End time: 19:40:25 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/GenericDecoder2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:40:25 on Jun 06,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/GenericDecoder2.v 
+# -- Compiling module GenericDecoder
+# 
+# Top level modules:
+# 	GenericDecoder
+# End time: 19:40:25 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/Data_Memory.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:40:25 on Jun 06,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/Data_Memory.v 
+# -- Compiling module Data_Memory
+# 
+# Top level modules:
+# 	Data_Memory
+# End time: 19:40:25 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/Mux_16_Bit_2_to_1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:40:25 on Jun 06,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/Mux_16_Bit_2_to_1.v 
+# -- Compiling module Mux_16_Bit_2_to_1
+# 
+# Top level modules:
+# 	Mux_16_Bit_2_to_1
+# End time: 19:40:26 on Jun 06,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/RegegisterFile.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:40:26 on Jun 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/RegegisterFile.sv 
+# -- Compiling module RegisterFile
+# -- Compiling module RegisterFile_testbench
+# 
+# Top level modules:
+# 	RegisterFile_testbench
+# End time: 19:40:26 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/Data_Path.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:40:26 on Jun 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/Data_Path.sv 
+# -- Compiling module Data_Path
+# 
+# Top level modules:
+# 	Data_Path
+# End time: 19:40:26 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/ALU.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:40:26 on Jun 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/ALU.sv 
+# -- Compiling module ALU
+# -- Compiling module ALU_testbench
+# 
+# Top level modules:
+# 	ALU_testbench
+# End time: 19:40:26 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/Data_Path_testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:40:26 on Jun 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/Data_Path_testbench.sv 
+# -- Compiling module Data_Path_testbench
+# 
+# Top level modules:
+# 	Data_Path_testbench
+# End time: 19:40:26 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  Data_Path_testbench
+# End time: 19:40:28 on Jun 06,2018, Elapsed time: 0:00:51
+# Errors: 0, Warnings: 2
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" Data_Path_testbench 
+# Start time: 19:40:28 on Jun 06,2018
+# Loading sv_std.std
+# Loading work.Data_Path_testbench
+# Loading work.Data_Path
+# Loading work.Data_Memory
+# Loading altera_mf_ver.altsyncram
+# Loading work.Mux_16_Bit_2_to_1
+# Loading lpm_ver.lpm_mux
+# Loading work.ALU
+# Loading work.RegisterFile
+# Loading work.GenericDecoder
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading work.RegisterDualOE
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Windows10  Hostname: DESKTOP-L0B8LK7  ProcessID: 4472
+#           Attempting to use alternate WLF file "./wlftth80hq".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftth80hq
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+do Processor_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/RegisterDualOE.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:40:52 on Jun 06,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/RegisterDualOE.v 
+# -- Compiling module RegisterDualOE
+# 
+# Top level modules:
+# 	RegisterDualOE
+# End time: 19:40:52 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/GenericDecoder2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:40:52 on Jun 06,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/GenericDecoder2.v 
+# -- Compiling module GenericDecoder
+# 
+# Top level modules:
+# 	GenericDecoder
+# End time: 19:40:52 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/Data_Memory.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:40:52 on Jun 06,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/Data_Memory.v 
+# -- Compiling module Data_Memory
+# 
+# Top level modules:
+# 	Data_Memory
+# End time: 19:40:53 on Jun 06,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/Mux_16_Bit_2_to_1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:40:53 on Jun 06,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/Mux_16_Bit_2_to_1.v 
+# -- Compiling module Mux_16_Bit_2_to_1
+# 
+# Top level modules:
+# 	Mux_16_Bit_2_to_1
+# End time: 19:40:53 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/RegegisterFile.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:40:53 on Jun 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/RegegisterFile.sv 
+# -- Compiling module RegisterFile
+# -- Compiling module RegisterFile_testbench
+# 
+# Top level modules:
+# 	RegisterFile_testbench
+# End time: 19:40:53 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/Data_Path.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:40:53 on Jun 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/Data_Path.sv 
+# -- Compiling module Data_Path
+# 
+# Top level modules:
+# 	Data_Path
+# End time: 19:40:53 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/ALU.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:40:53 on Jun 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/ALU.sv 
+# -- Compiling module ALU
+# -- Compiling module ALU_testbench
+# 
+# Top level modules:
+# 	ALU_testbench
+# End time: 19:40:53 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/Data_Path_testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:40:53 on Jun 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/Data_Path_testbench.sv 
+# -- Compiling module Data_Path_testbench
+# 
+# Top level modules:
+# 	Data_Path_testbench
+# End time: 19:40:53 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  Data_Path_testbench
+# End time: 19:40:55 on Jun 06,2018, Elapsed time: 0:00:27
+# Errors: 0, Warnings: 2
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" Data_Path_testbench 
+# Start time: 19:40:56 on Jun 06,2018
+# Loading sv_std.std
+# Loading work.Data_Path_testbench
+# Loading work.Data_Path
+# Loading work.Data_Memory
+# Loading altera_mf_ver.altsyncram
+# Loading work.Mux_16_Bit_2_to_1
+# Loading lpm_ver.lpm_mux
+# Loading work.ALU
+# Loading work.RegisterFile
+# Loading work.GenericDecoder
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading work.RegisterDualOE
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Windows10  Hostname: DESKTOP-L0B8LK7  ProcessID: 4472
+#           Attempting to use alternate WLF file "./wlftggs235".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftggs235
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+do Processor_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/RegisterDualOE.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:41:27 on Jun 06,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/RegisterDualOE.v 
+# -- Compiling module RegisterDualOE
+# 
+# Top level modules:
+# 	RegisterDualOE
+# End time: 19:41:27 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/GenericDecoder2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:41:28 on Jun 06,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/GenericDecoder2.v 
+# -- Compiling module GenericDecoder
+# 
+# Top level modules:
+# 	GenericDecoder
+# End time: 19:41:28 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/Data_Memory.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:41:28 on Jun 06,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/Data_Memory.v 
+# -- Compiling module Data_Memory
+# 
+# Top level modules:
+# 	Data_Memory
+# End time: 19:41:28 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/Mux_16_Bit_2_to_1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:41:28 on Jun 06,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/Mux_16_Bit_2_to_1.v 
+# -- Compiling module Mux_16_Bit_2_to_1
+# 
+# Top level modules:
+# 	Mux_16_Bit_2_to_1
+# End time: 19:41:28 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/RegegisterFile.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:41:28 on Jun 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/RegegisterFile.sv 
+# -- Compiling module RegisterFile
+# -- Compiling module RegisterFile_testbench
+# 
+# Top level modules:
+# 	RegisterFile_testbench
+# End time: 19:41:28 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/Data_Path.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:41:28 on Jun 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/Data_Path.sv 
+# -- Compiling module Data_Path
+# 
+# Top level modules:
+# 	Data_Path
+# End time: 19:41:28 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/ALU.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:41:28 on Jun 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/ALU.sv 
+# -- Compiling module ALU
+# -- Compiling module ALU_testbench
+# 
+# Top level modules:
+# 	ALU_testbench
+# End time: 19:41:29 on Jun 06,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/Data_Path_testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:41:29 on Jun 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/Data_Path_testbench.sv 
+# -- Compiling module Data_Path_testbench
+# 
+# Top level modules:
+# 	Data_Path_testbench
+# End time: 19:41:29 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  Data_Path_testbench
+# End time: 19:41:31 on Jun 06,2018, Elapsed time: 0:00:35
+# Errors: 0, Warnings: 2
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" Data_Path_testbench 
+# Start time: 19:41:31 on Jun 06,2018
+# Loading sv_std.std
+# Loading work.Data_Path_testbench
+# Loading work.Data_Path
+# Loading work.Data_Memory
+# Loading altera_mf_ver.altsyncram
+# Loading work.Mux_16_Bit_2_to_1
+# Loading lpm_ver.lpm_mux
+# Loading work.ALU
+# Loading work.RegisterFile
+# Loading work.GenericDecoder
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading work.RegisterDualOE
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Windows10  Hostname: DESKTOP-L0B8LK7  ProcessID: 4472
+#           Attempting to use alternate WLF file "./wlftaxty1x".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftaxty1x
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+do Processor_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/RegisterDualOE.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:43:31 on Jun 06,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/RegisterDualOE.v 
+# -- Compiling module RegisterDualOE
+# 
+# Top level modules:
+# 	RegisterDualOE
+# End time: 19:43:31 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/GenericDecoder2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:43:31 on Jun 06,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/GenericDecoder2.v 
+# -- Compiling module GenericDecoder
+# 
+# Top level modules:
+# 	GenericDecoder
+# End time: 19:43:31 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/Data_Memory.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:43:32 on Jun 06,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/Data_Memory.v 
+# -- Compiling module Data_Memory
+# 
+# Top level modules:
+# 	Data_Memory
+# End time: 19:43:32 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/Mux_16_Bit_2_to_1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:43:32 on Jun 06,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/Mux_16_Bit_2_to_1.v 
+# -- Compiling module Mux_16_Bit_2_to_1
+# 
+# Top level modules:
+# 	Mux_16_Bit_2_to_1
+# End time: 19:43:32 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/RegegisterFile.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:43:32 on Jun 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/RegegisterFile.sv 
+# -- Compiling module RegisterFile
+# -- Compiling module RegisterFile_testbench
+# 
+# Top level modules:
+# 	RegisterFile_testbench
+# End time: 19:43:32 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/Data_Path.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:43:32 on Jun 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/Data_Path.sv 
+# -- Compiling module Data_Path
+# 
+# Top level modules:
+# 	Data_Path
+# End time: 19:43:32 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/ALU.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:43:32 on Jun 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/ALU.sv 
+# -- Compiling module ALU
+# -- Compiling module ALU_testbench
+# 
+# Top level modules:
+# 	ALU_testbench
+# End time: 19:43:33 on Jun 06,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/Data_Path_testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:43:33 on Jun 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/Data_Path_testbench.sv 
+# -- Compiling module Data_Path_testbench
+# 
+# Top level modules:
+# 	Data_Path_testbench
+# End time: 19:43:33 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  Data_Path_testbench
+# End time: 19:43:35 on Jun 06,2018, Elapsed time: 0:02:04
+# Errors: 0, Warnings: 2
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" Data_Path_testbench 
+# Start time: 19:43:35 on Jun 06,2018
+# Loading sv_std.std
+# Loading work.Data_Path_testbench
+# Loading work.Data_Path
+# Loading work.Data_Memory
+# Loading altera_mf_ver.altsyncram
+# Loading work.Mux_16_Bit_2_to_1
+# Loading lpm_ver.lpm_mux
+# Loading work.ALU
+# Loading work.RegisterFile
+# Loading work.GenericDecoder
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading work.RegisterDualOE
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Windows10  Hostname: DESKTOP-L0B8LK7  ProcessID: 4472
+#           Attempting to use alternate WLF file "./wlftz1y5e6".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftz1y5e6
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+do Processor_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/RegisterDualOE.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:43:57 on Jun 06,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/RegisterDualOE.v 
+# -- Compiling module RegisterDualOE
+# 
+# Top level modules:
+# 	RegisterDualOE
+# End time: 19:43:57 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/GenericDecoder2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:43:57 on Jun 06,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/GenericDecoder2.v 
+# -- Compiling module GenericDecoder
+# 
+# Top level modules:
+# 	GenericDecoder
+# End time: 19:43:57 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/Data_Memory.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:43:57 on Jun 06,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/Data_Memory.v 
+# -- Compiling module Data_Memory
+# 
+# Top level modules:
+# 	Data_Memory
+# End time: 19:43:57 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/Mux_16_Bit_2_to_1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:43:57 on Jun 06,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/Mux_16_Bit_2_to_1.v 
+# -- Compiling module Mux_16_Bit_2_to_1
+# 
+# Top level modules:
+# 	Mux_16_Bit_2_to_1
+# End time: 19:43:57 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/RegegisterFile.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:43:57 on Jun 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/RegegisterFile.sv 
+# -- Compiling module RegisterFile
+# -- Compiling module RegisterFile_testbench
+# 
+# Top level modules:
+# 	RegisterFile_testbench
+# End time: 19:43:57 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/Data_Path.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:43:58 on Jun 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/Data_Path.sv 
+# -- Compiling module Data_Path
+# 
+# Top level modules:
+# 	Data_Path
+# End time: 19:43:58 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/ALU.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:43:58 on Jun 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/ALU.sv 
+# -- Compiling module ALU
+# -- Compiling module ALU_testbench
+# 
+# Top level modules:
+# 	ALU_testbench
+# End time: 19:43:58 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/Data_Path_testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:43:58 on Jun 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/Data_Path_testbench.sv 
+# -- Compiling module Data_Path_testbench
+# 
+# Top level modules:
+# 	Data_Path_testbench
+# End time: 19:43:58 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  Data_Path_testbench
+# End time: 19:44:00 on Jun 06,2018, Elapsed time: 0:00:25
+# Errors: 0, Warnings: 2
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" Data_Path_testbench 
+# Start time: 19:44:00 on Jun 06,2018
+# Loading sv_std.std
+# Loading work.Data_Path_testbench
+# Loading work.Data_Path
+# Loading work.Data_Memory
+# Loading altera_mf_ver.altsyncram
+# Loading work.Mux_16_Bit_2_to_1
+# Loading lpm_ver.lpm_mux
+# Loading work.ALU
+# Loading work.RegisterFile
+# Loading work.GenericDecoder
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading work.RegisterDualOE
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Windows10  Hostname: DESKTOP-L0B8LK7  ProcessID: 4472
+#           Attempting to use alternate WLF file "./wlftvhxnd9".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftvhxnd9
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+do Processor_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/RegisterDualOE.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:53:55 on Jun 06,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/RegisterDualOE.v 
+# -- Compiling module RegisterDualOE
+# 
+# Top level modules:
+# 	RegisterDualOE
+# End time: 19:53:56 on Jun 06,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/GenericDecoder2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:53:56 on Jun 06,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/GenericDecoder2.v 
+# -- Compiling module GenericDecoder
+# 
+# Top level modules:
+# 	GenericDecoder
+# End time: 19:53:56 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/Data_Memory.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:53:56 on Jun 06,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/Data_Memory.v 
+# -- Compiling module Data_Memory
+# 
+# Top level modules:
+# 	Data_Memory
+# End time: 19:53:56 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/Mux_16_Bit_2_to_1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:53:56 on Jun 06,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/Mux_16_Bit_2_to_1.v 
+# -- Compiling module Mux_16_Bit_2_to_1
+# 
+# Top level modules:
+# 	Mux_16_Bit_2_to_1
+# End time: 19:53:56 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/RegegisterFile.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:53:56 on Jun 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/RegegisterFile.sv 
+# -- Compiling module RegisterFile
+# -- Compiling module RegisterFile_testbench
+# 
+# Top level modules:
+# 	RegisterFile_testbench
+# End time: 19:53:56 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/Data_Path.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:53:56 on Jun 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/Data_Path.sv 
+# -- Compiling module Data_Path
+# 
+# Top level modules:
+# 	Data_Path
+# End time: 19:53:57 on Jun 06,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/ALU.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:53:57 on Jun 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/ALU.sv 
+# -- Compiling module ALU
+# -- Compiling module ALU_testbench
+# 
+# Top level modules:
+# 	ALU_testbench
+# End time: 19:53:57 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/Data_Path_testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:53:57 on Jun 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/Data_Path_testbench.sv 
+# -- Compiling module Data_Path_testbench
+# 
+# Top level modules:
+# 	Data_Path_testbench
+# End time: 19:53:57 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  Data_Path_testbench
+# End time: 19:53:59 on Jun 06,2018, Elapsed time: 0:09:59
+# Errors: 0, Warnings: 2
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" Data_Path_testbench 
+# Start time: 19:53:59 on Jun 06,2018
+# Loading sv_std.std
+# Loading work.Data_Path_testbench
+# Loading work.Data_Path
+# Loading work.Data_Memory
+# Loading altera_mf_ver.altsyncram
+# Loading work.Mux_16_Bit_2_to_1
+# Loading lpm_ver.lpm_mux
+# Loading work.ALU
+# Loading work.RegisterFile
+# Loading work.GenericDecoder
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading work.RegisterDualOE
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Windows10  Hostname: DESKTOP-L0B8LK7  ProcessID: 4472
+#           Attempting to use alternate WLF file "./wlftec8q1n".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftec8q1n
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+do Processor_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/RegisterDualOE.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:55:43 on Jun 06,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/RegisterDualOE.v 
+# -- Compiling module RegisterDualOE
+# 
+# Top level modules:
+# 	RegisterDualOE
+# End time: 19:55:43 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/GenericDecoder2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:55:43 on Jun 06,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/GenericDecoder2.v 
+# -- Compiling module GenericDecoder
+# 
+# Top level modules:
+# 	GenericDecoder
+# End time: 19:55:44 on Jun 06,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/Data_Memory.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:55:44 on Jun 06,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/Data_Memory.v 
+# -- Compiling module Data_Memory
+# 
+# Top level modules:
+# 	Data_Memory
+# End time: 19:55:44 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/Mux_16_Bit_2_to_1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:55:44 on Jun 06,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/Mux_16_Bit_2_to_1.v 
+# -- Compiling module Mux_16_Bit_2_to_1
+# 
+# Top level modules:
+# 	Mux_16_Bit_2_to_1
+# End time: 19:55:44 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/RegegisterFile.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:55:44 on Jun 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/RegegisterFile.sv 
+# -- Compiling module RegisterFile
+# -- Compiling module RegisterFile_testbench
+# 
+# Top level modules:
+# 	RegisterFile_testbench
+# End time: 19:55:44 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/Data_Path.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:55:44 on Jun 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/Data_Path.sv 
+# -- Compiling module Data_Path
+# 
+# Top level modules:
+# 	Data_Path
+# End time: 19:55:44 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/ALU.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:55:44 on Jun 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/ALU.sv 
+# -- Compiling module ALU
+# -- Compiling module ALU_testbench
+# 
+# Top level modules:
+# 	ALU_testbench
+# End time: 19:55:45 on Jun 06,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/Data_Path_testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:55:45 on Jun 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/Data_Path_testbench.sv 
+# -- Compiling module Data_Path_testbench
+# 
+# Top level modules:
+# 	Data_Path_testbench
+# End time: 19:55:45 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  Data_Path_testbench
+# End time: 19:55:47 on Jun 06,2018, Elapsed time: 0:01:48
+# Errors: 0, Warnings: 2
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" Data_Path_testbench 
+# Start time: 19:55:47 on Jun 06,2018
+# Loading sv_std.std
+# Loading work.Data_Path_testbench
+# Loading work.Data_Path
+# Loading work.Data_Memory
+# Loading altera_mf_ver.altsyncram
+# Loading work.Mux_16_Bit_2_to_1
+# Loading lpm_ver.lpm_mux
+# Loading work.ALU
+# Loading work.RegisterFile
+# Loading work.GenericDecoder
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading work.RegisterDualOE
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Windows10  Hostname: DESKTOP-L0B8LK7  ProcessID: 4472
+#           Attempting to use alternate WLF file "./wlftdybqkz".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftdybqkz
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+do Processor_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/RegisterDualOE.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:56:41 on Jun 06,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/RegisterDualOE.v 
+# -- Compiling module RegisterDualOE
+# 
+# Top level modules:
+# 	RegisterDualOE
+# End time: 19:56:42 on Jun 06,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/GenericDecoder2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:56:42 on Jun 06,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/GenericDecoder2.v 
+# -- Compiling module GenericDecoder
+# 
+# Top level modules:
+# 	GenericDecoder
+# End time: 19:56:42 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/Data_Memory.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:56:42 on Jun 06,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/Data_Memory.v 
+# -- Compiling module Data_Memory
+# 
+# Top level modules:
+# 	Data_Memory
+# End time: 19:56:42 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/Mux_16_Bit_2_to_1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:56:42 on Jun 06,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/Mux_16_Bit_2_to_1.v 
+# -- Compiling module Mux_16_Bit_2_to_1
+# 
+# Top level modules:
+# 	Mux_16_Bit_2_to_1
+# End time: 19:56:42 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/RegegisterFile.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:56:42 on Jun 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/RegegisterFile.sv 
+# -- Compiling module RegisterFile
+# -- Compiling module RegisterFile_testbench
+# 
+# Top level modules:
+# 	RegisterFile_testbench
+# End time: 19:56:42 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/Data_Path.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:56:42 on Jun 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/Data_Path.sv 
+# -- Compiling module Data_Path
+# 
+# Top level modules:
+# 	Data_Path
+# End time: 19:56:43 on Jun 06,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/ALU.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:56:43 on Jun 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/ALU.sv 
+# -- Compiling module ALU
+# -- Compiling module ALU_testbench
+# 
+# Top level modules:
+# 	ALU_testbench
+# End time: 19:56:43 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/Data_Path_testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:56:43 on Jun 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/Data_Path_testbench.sv 
+# -- Compiling module Data_Path_testbench
+# 
+# Top level modules:
+# 	Data_Path_testbench
+# End time: 19:56:43 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  Data_Path_testbench
+# End time: 19:56:45 on Jun 06,2018, Elapsed time: 0:00:58
+# Errors: 0, Warnings: 2
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" Data_Path_testbench 
+# Start time: 19:56:46 on Jun 06,2018
+# Loading sv_std.std
+# Loading work.Data_Path_testbench
+# Loading work.Data_Path
+# Loading work.Data_Memory
+# Loading altera_mf_ver.altsyncram
+# Loading work.Mux_16_Bit_2_to_1
+# Loading lpm_ver.lpm_mux
+# Loading work.ALU
+# Loading work.RegisterFile
+# Loading work.GenericDecoder
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading work.RegisterDualOE
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Windows10  Hostname: DESKTOP-L0B8LK7  ProcessID: 4472
+#           Attempting to use alternate WLF file "./wlft7szrdc".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft7szrdc
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+do Processor_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/RegisterDualOE.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:59:19 on Jun 06,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/RegisterDualOE.v 
+# -- Compiling module RegisterDualOE
+# 
+# Top level modules:
+# 	RegisterDualOE
+# End time: 19:59:19 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/GenericDecoder2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:59:19 on Jun 06,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/GenericDecoder2.v 
+# -- Compiling module GenericDecoder
+# 
+# Top level modules:
+# 	GenericDecoder
+# End time: 19:59:19 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/Data_Memory.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:59:19 on Jun 06,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/Data_Memory.v 
+# -- Compiling module Data_Memory
+# 
+# Top level modules:
+# 	Data_Memory
+# End time: 19:59:19 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/Mux_16_Bit_2_to_1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:59:19 on Jun 06,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/Mux_16_Bit_2_to_1.v 
+# -- Compiling module Mux_16_Bit_2_to_1
+# 
+# Top level modules:
+# 	Mux_16_Bit_2_to_1
+# End time: 19:59:20 on Jun 06,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/RegegisterFile.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:59:20 on Jun 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/RegegisterFile.sv 
+# -- Compiling module RegisterFile
+# -- Compiling module RegisterFile_testbench
+# 
+# Top level modules:
+# 	RegisterFile_testbench
+# End time: 19:59:20 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/Data_Path.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:59:20 on Jun 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/Data_Path.sv 
+# -- Compiling module Data_Path
+# 
+# Top level modules:
+# 	Data_Path
+# End time: 19:59:20 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/ALU.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:59:20 on Jun 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/ALU.sv 
+# -- Compiling module ALU
+# -- Compiling module ALU_testbench
+# 
+# Top level modules:
+# 	ALU_testbench
+# End time: 19:59:20 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/Data_Path_testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:59:20 on Jun 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/Data_Path_testbench.sv 
+# -- Compiling module Data_Path_testbench
+# 
+# Top level modules:
+# 	Data_Path_testbench
+# End time: 19:59:20 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  Data_Path_testbench
+# End time: 19:59:22 on Jun 06,2018, Elapsed time: 0:02:36
+# Errors: 0, Warnings: 2
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" Data_Path_testbench 
+# Start time: 19:59:22 on Jun 06,2018
+# Loading sv_std.std
+# Loading work.Data_Path_testbench
+# Loading work.Data_Path
+# Loading work.Data_Memory
+# Loading altera_mf_ver.altsyncram
+# Loading work.Mux_16_Bit_2_to_1
+# Loading lpm_ver.lpm_mux
+# Loading work.ALU
+# Loading work.RegisterFile
+# Loading work.GenericDecoder
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading work.RegisterDualOE
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Windows10  Hostname: DESKTOP-L0B8LK7  ProcessID: 4472
+#           Attempting to use alternate WLF file "./wlftqw7bjj".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftqw7bjj
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+do Processor_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/RegisterDualOE.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:04:44 on Jun 06,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/RegisterDualOE.v 
+# -- Compiling module RegisterDualOE
+# 
+# Top level modules:
+# 	RegisterDualOE
+# End time: 20:04:44 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/GenericDecoder2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:04:44 on Jun 06,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/GenericDecoder2.v 
+# -- Compiling module GenericDecoder
+# 
+# Top level modules:
+# 	GenericDecoder
+# End time: 20:04:44 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/Data_Memory.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:04:44 on Jun 06,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/Data_Memory.v 
+# -- Compiling module Data_Memory
+# 
+# Top level modules:
+# 	Data_Memory
+# End time: 20:04:44 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/Mux_16_Bit_2_to_1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:04:44 on Jun 06,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/Mux_16_Bit_2_to_1.v 
+# -- Compiling module Mux_16_Bit_2_to_1
+# 
+# Top level modules:
+# 	Mux_16_Bit_2_to_1
+# End time: 20:04:44 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/RegegisterFile.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:04:44 on Jun 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/RegegisterFile.sv 
+# -- Compiling module RegisterFile
+# -- Compiling module RegisterFile_testbench
+# 
+# Top level modules:
+# 	RegisterFile_testbench
+# End time: 20:04:45 on Jun 06,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/Data_Path.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:04:45 on Jun 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/Data_Path.sv 
+# -- Compiling module Data_Path
+# 
+# Top level modules:
+# 	Data_Path
+# End time: 20:04:45 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/ALU.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:04:45 on Jun 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/ALU.sv 
+# -- Compiling module ALU
+# -- Compiling module ALU_testbench
+# 
+# Top level modules:
+# 	ALU_testbench
+# End time: 20:04:45 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/Data_Path_testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:04:45 on Jun 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/Data_Path_testbench.sv 
+# -- Compiling module Data_Path_testbench
+# 
+# Top level modules:
+# 	Data_Path_testbench
+# End time: 20:04:45 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  Data_Path_testbench
+# End time: 20:04:47 on Jun 06,2018, Elapsed time: 0:05:25
+# Errors: 0, Warnings: 2
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" Data_Path_testbench 
+# Start time: 20:04:48 on Jun 06,2018
+# Loading sv_std.std
+# Loading work.Data_Path_testbench
+# Loading work.Data_Path
+# Loading work.Data_Memory
+# Loading altera_mf_ver.altsyncram
+# Loading work.Mux_16_Bit_2_to_1
+# Loading lpm_ver.lpm_mux
+# Loading work.ALU
+# Loading work.RegisterFile
+# Loading work.GenericDecoder
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading work.RegisterDualOE
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Windows10  Hostname: DESKTOP-L0B8LK7  ProcessID: 4472
+#           Attempting to use alternate WLF file "./wlft89ijih".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft89ijih
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+do Processor_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/RegisterDualOE.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:05:36 on Jun 06,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/RegisterDualOE.v 
+# -- Compiling module RegisterDualOE
+# 
+# Top level modules:
+# 	RegisterDualOE
+# End time: 20:05:36 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/GenericDecoder2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:05:36 on Jun 06,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/GenericDecoder2.v 
+# -- Compiling module GenericDecoder
+# 
+# Top level modules:
+# 	GenericDecoder
+# End time: 20:05:36 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/Data_Memory.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:05:36 on Jun 06,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/Data_Memory.v 
+# -- Compiling module Data_Memory
+# 
+# Top level modules:
+# 	Data_Memory
+# End time: 20:05:36 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/Mux_16_Bit_2_to_1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:05:36 on Jun 06,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/Mux_16_Bit_2_to_1.v 
+# -- Compiling module Mux_16_Bit_2_to_1
+# 
+# Top level modules:
+# 	Mux_16_Bit_2_to_1
+# End time: 20:05:36 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/RegegisterFile.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:05:36 on Jun 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/RegegisterFile.sv 
+# -- Compiling module RegisterFile
+# -- Compiling module RegisterFile_testbench
+# 
+# Top level modules:
+# 	RegisterFile_testbench
+# End time: 20:05:37 on Jun 06,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/Data_Path.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:05:37 on Jun 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/Data_Path.sv 
+# -- Compiling module Data_Path
+# 
+# Top level modules:
+# 	Data_Path
+# End time: 20:05:37 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/ALU.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:05:37 on Jun 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/ALU.sv 
+# -- Compiling module ALU
+# -- Compiling module ALU_testbench
+# 
+# Top level modules:
+# 	ALU_testbench
+# End time: 20:05:37 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/Data_Path_testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:05:37 on Jun 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/Data_Path_testbench.sv 
+# -- Compiling module Data_Path_testbench
+# 
+# Top level modules:
+# 	Data_Path_testbench
+# End time: 20:05:37 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  Data_Path_testbench
+# End time: 20:05:39 on Jun 06,2018, Elapsed time: 0:00:51
+# Errors: 0, Warnings: 2
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" Data_Path_testbench 
+# Start time: 20:05:39 on Jun 06,2018
+# Loading sv_std.std
+# Loading work.Data_Path_testbench
+# Loading work.Data_Path
+# Loading work.Data_Memory
+# Loading altera_mf_ver.altsyncram
+# Loading work.Mux_16_Bit_2_to_1
+# Loading lpm_ver.lpm_mux
+# Loading work.ALU
+# Loading work.RegisterFile
+# Loading work.GenericDecoder
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading work.RegisterDualOE
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Windows10  Hostname: DESKTOP-L0B8LK7  ProcessID: 4472
+#           Attempting to use alternate WLF file "./wlftfxjqa0".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftfxjqa0
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+do Processor_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/RegisterDualOE.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:09:34 on Jun 06,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/RegisterDualOE.v 
+# -- Compiling module RegisterDualOE
+# 
+# Top level modules:
+# 	RegisterDualOE
+# End time: 20:09:34 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/GenericDecoder2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:09:34 on Jun 06,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/GenericDecoder2.v 
+# -- Compiling module GenericDecoder
+# 
+# Top level modules:
+# 	GenericDecoder
+# End time: 20:09:34 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/Data_Memory.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:09:34 on Jun 06,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/Data_Memory.v 
+# -- Compiling module Data_Memory
+# 
+# Top level modules:
+# 	Data_Memory
+# End time: 20:09:34 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/Mux_16_Bit_2_to_1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:09:35 on Jun 06,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/Mux_16_Bit_2_to_1.v 
+# -- Compiling module Mux_16_Bit_2_to_1
+# 
+# Top level modules:
+# 	Mux_16_Bit_2_to_1
+# End time: 20:09:35 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/RegegisterFile.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:09:35 on Jun 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/RegegisterFile.sv 
+# -- Compiling module RegisterFile
+# 
+# Top level modules:
+# 	RegisterFile
+# End time: 20:09:35 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/Data_Path.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:09:35 on Jun 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/Data_Path.sv 
+# -- Compiling module Data_Path
+# 
+# Top level modules:
+# 	Data_Path
+# End time: 20:09:35 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/ALU.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:09:35 on Jun 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/ALU.sv 
+# -- Compiling module ALU
+# -- Compiling module ALU_testbench
+# 
+# Top level modules:
+# 	ALU_testbench
+# End time: 20:09:35 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/Data_Path_testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:09:35 on Jun 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/Data_Path_testbench.sv 
+# -- Compiling module Data_Path_testbench
+# 
+# Top level modules:
+# 	Data_Path_testbench
+# End time: 20:09:35 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  Data_Path_testbench
+# End time: 20:09:38 on Jun 06,2018, Elapsed time: 0:03:59
+# Errors: 0, Warnings: 2
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" Data_Path_testbench 
+# Start time: 20:09:38 on Jun 06,2018
+# Loading sv_std.std
+# Loading work.Data_Path_testbench
+# Loading work.Data_Path
+# Loading work.Data_Memory
+# Loading altera_mf_ver.altsyncram
+# Loading work.Mux_16_Bit_2_to_1
+# Loading lpm_ver.lpm_mux
+# Loading work.ALU
+# Loading work.RegisterFile
+# Loading work.GenericDecoder
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading work.RegisterDualOE
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Windows10  Hostname: DESKTOP-L0B8LK7  ProcessID: 4472
+#           Attempting to use alternate WLF file "./wlftfn77f6".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftfn77f6
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+do Processor_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/RegisterDualOE.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:13:13 on Jun 06,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/RegisterDualOE.v 
+# -- Compiling module RegisterDualOE
+# 
+# Top level modules:
+# 	RegisterDualOE
+# End time: 20:13:14 on Jun 06,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/GenericDecoder2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:13:14 on Jun 06,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/GenericDecoder2.v 
+# -- Compiling module GenericDecoder
+# 
+# Top level modules:
+# 	GenericDecoder
+# End time: 20:13:14 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/Data_Memory.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:13:14 on Jun 06,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/Data_Memory.v 
+# -- Compiling module Data_Memory
+# 
+# Top level modules:
+# 	Data_Memory
+# End time: 20:13:14 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/Mux_16_Bit_2_to_1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:13:14 on Jun 06,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/Mux_16_Bit_2_to_1.v 
+# -- Compiling module Mux_16_Bit_2_to_1
+# 
+# Top level modules:
+# 	Mux_16_Bit_2_to_1
+# End time: 20:13:14 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/RegegisterFile.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:13:14 on Jun 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/RegegisterFile.sv 
+# -- Compiling module RegisterFile
+# 
+# Top level modules:
+# 	RegisterFile
+# End time: 20:13:14 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/Data_Path.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:13:14 on Jun 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/Data_Path.sv 
+# -- Compiling module Data_Path
+# 
+# Top level modules:
+# 	Data_Path
+# End time: 20:13:14 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/ALU.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:13:14 on Jun 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/ALU.sv 
+# -- Compiling module ALU
+# -- Compiling module ALU_testbench
+# 
+# Top level modules:
+# 	ALU_testbench
+# End time: 20:13:15 on Jun 06,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/Data_Path_testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:13:15 on Jun 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/Data_Path_testbench.sv 
+# -- Compiling module Data_Path_testbench
+# 
+# Top level modules:
+# 	Data_Path_testbench
+# End time: 20:13:15 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  Data_Path_testbench
+# End time: 20:13:17 on Jun 06,2018, Elapsed time: 0:03:39
+# Errors: 0, Warnings: 2
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" Data_Path_testbench 
+# Start time: 20:13:17 on Jun 06,2018
+# Loading sv_std.std
+# Loading work.Data_Path_testbench
+# Loading work.Data_Path
+# Loading work.Data_Memory
+# Loading altera_mf_ver.altsyncram
+# Loading work.Mux_16_Bit_2_to_1
+# Loading lpm_ver.lpm_mux
+# Loading work.ALU
+# Loading work.RegisterFile
+# Loading work.GenericDecoder
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading work.RegisterDualOE
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Windows10  Hostname: DESKTOP-L0B8LK7  ProcessID: 4472
+#           Attempting to use alternate WLF file "./wlftieh6sb".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftieh6sb
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+do Processor_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/RegisterDualOE.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:15:14 on Jun 06,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/RegisterDualOE.v 
+# -- Compiling module RegisterDualOE
+# 
+# Top level modules:
+# 	RegisterDualOE
+# End time: 20:15:14 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/GenericDecoder2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:15:14 on Jun 06,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/GenericDecoder2.v 
+# -- Compiling module GenericDecoder
+# 
+# Top level modules:
+# 	GenericDecoder
+# End time: 20:15:14 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/Data_Memory.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:15:14 on Jun 06,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/Data_Memory.v 
+# -- Compiling module Data_Memory
+# 
+# Top level modules:
+# 	Data_Memory
+# End time: 20:15:14 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/Mux_16_Bit_2_to_1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:15:14 on Jun 06,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/Mux_16_Bit_2_to_1.v 
+# -- Compiling module Mux_16_Bit_2_to_1
+# 
+# Top level modules:
+# 	Mux_16_Bit_2_to_1
+# End time: 20:15:15 on Jun 06,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/RegegisterFile.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:15:15 on Jun 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/RegegisterFile.sv 
+# -- Compiling module RegisterFile
+# 
+# Top level modules:
+# 	RegisterFile
+# End time: 20:15:15 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/Data_Path.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:15:15 on Jun 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/Data_Path.sv 
+# -- Compiling module Data_Path
+# 
+# Top level modules:
+# 	Data_Path
+# End time: 20:15:15 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/ALU.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:15:15 on Jun 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/ALU.sv 
+# -- Compiling module ALU
+# -- Compiling module ALU_testbench
+# 
+# Top level modules:
+# 	ALU_testbench
+# End time: 20:15:15 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/Data_Path_testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:15:15 on Jun 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/Data_Path_testbench.sv 
+# -- Compiling module Data_Path_testbench
+# 
+# Top level modules:
+# 	Data_Path_testbench
+# End time: 20:15:16 on Jun 06,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  Data_Path_testbench
+# End time: 20:15:18 on Jun 06,2018, Elapsed time: 0:02:01
+# Errors: 0, Warnings: 2
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" Data_Path_testbench 
+# Start time: 20:15:18 on Jun 06,2018
+# Loading sv_std.std
+# Loading work.Data_Path_testbench
+# Loading work.Data_Path
+# Loading work.Data_Memory
+# Loading altera_mf_ver.altsyncram
+# Loading work.Mux_16_Bit_2_to_1
+# Loading lpm_ver.lpm_mux
+# Loading work.ALU
+# Loading work.RegisterFile
+# Loading work.GenericDecoder
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading work.RegisterDualOE
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Windows10  Hostname: DESKTOP-L0B8LK7  ProcessID: 4472
+#           Attempting to use alternate WLF file "./wlfta98ic8".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfta98ic8
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+do Processor_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/RegisterDualOE.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:29:33 on Jun 06,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/RegisterDualOE.v 
+# -- Compiling module RegisterDualOE
+# 
+# Top level modules:
+# 	RegisterDualOE
+# End time: 20:29:33 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/GenericDecoder2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:29:33 on Jun 06,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/GenericDecoder2.v 
+# -- Compiling module GenericDecoder
+# 
+# Top level modules:
+# 	GenericDecoder
+# End time: 20:29:33 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/Data_Memory.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:29:33 on Jun 06,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/Data_Memory.v 
+# -- Compiling module Data_Memory
+# 
+# Top level modules:
+# 	Data_Memory
+# End time: 20:29:33 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/Mux_16_Bit_2_to_1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:29:33 on Jun 06,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/Mux_16_Bit_2_to_1.v 
+# -- Compiling module Mux_16_Bit_2_to_1
+# 
+# Top level modules:
+# 	Mux_16_Bit_2_to_1
+# End time: 20:29:33 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/RegegisterFile.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:29:33 on Jun 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/RegegisterFile.sv 
+# -- Compiling module RegisterFile
+# 
+# Top level modules:
+# 	RegisterFile
+# End time: 20:29:33 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/Data_Path.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:29:34 on Jun 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/Data_Path.sv 
+# -- Compiling module Data_Path
+# 
+# Top level modules:
+# 	Data_Path
+# End time: 20:29:34 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/ALU.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:29:34 on Jun 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/ALU.sv 
+# -- Compiling module ALU
+# -- Compiling module ALU_testbench
+# 
+# Top level modules:
+# 	ALU_testbench
+# End time: 20:29:34 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/UWT/TCES330/labs/Processor {C:/UWT/TCES330/labs/Processor/Data_Path_testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:29:34 on Jun 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/UWT/TCES330/labs/Processor" C:/UWT/TCES330/labs/Processor/Data_Path_testbench.sv 
+# -- Compiling module Data_Path_testbench
+# 
+# Top level modules:
+# 	Data_Path_testbench
+# End time: 20:29:34 on Jun 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  Data_Path_testbench
+# End time: 20:29:36 on Jun 06,2018, Elapsed time: 0:14:18
+# Errors: 0, Warnings: 2
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" Data_Path_testbench 
+# Start time: 20:29:36 on Jun 06,2018
+# Loading sv_std.std
+# Loading work.Data_Path_testbench
+# Loading work.Data_Path
+# Loading work.Data_Memory
+# Loading altera_mf_ver.altsyncram
+# Loading work.Mux_16_Bit_2_to_1
+# Loading lpm_ver.lpm_mux
+# Loading work.ALU
+# Loading work.RegisterFile
+# Loading work.GenericDecoder
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading work.RegisterDualOE
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Windows10  Hostname: DESKTOP-L0B8LK7  ProcessID: 4472
+#           Attempting to use alternate WLF file "./wlft45jd8y".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft45jd8y
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# End time: 20:31:17 on Jun 06,2018, Elapsed time: 0:01:41
+# Errors: 0, Warnings: 2

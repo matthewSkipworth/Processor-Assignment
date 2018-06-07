@@ -1,0 +1,232 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/UWT/TCES330/labs/Processor/simulation/modelsim
+vALU
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1528342174
+!i10b 1
+!s100 kTE=WYn2XHeMhYB2@=Q2B0
+I^>mY]FI=E]8OE6G6lKP[?1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 !s105 ALU_sv_unit
+S1
+R0
+Z5 w1528247487
+Z6 8C:/UWT/TCES330/labs/Processor/ALU.sv
+Z7 FC:/UWT/TCES330/labs/Processor/ALU.sv
+L0 1
+Z8 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z9 !s108 1528342174.000000
+Z10 !s107 C:/UWT/TCES330/labs/Processor/ALU.sv|
+Z11 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/UWT/TCES330/labs/Processor|C:/UWT/TCES330/labs/Processor/ALU.sv|
+!i113 1
+Z12 o-sv -work work
+Z13 !s92 -sv -work work +incdir+C:/UWT/TCES330/labs/Processor
+Z14 tCvgOpt 0
+n@a@l@u
+vALU_testbench
+R1
+R2
+!i10b 1
+!s100 FTAnU2egZWAOWji<288oT0
+IPhn;Q`0TABb?L0]73I@XS3
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 28
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+n@a@l@u_testbench
+vData_Memory
+Z15 !s110 1528342173
+!i10b 1
+!s100 _8i<nBk?^N=nB7bdAY0Fb3
+IYFR8eW3ZX7z6WmIRm]08_1
+R3
+R0
+w1527889284
+8C:/UWT/TCES330/labs/Processor/Data_Memory.v
+FC:/UWT/TCES330/labs/Processor/Data_Memory.v
+Z16 L0 40
+R8
+r1
+!s85 0
+31
+Z17 !s108 1528342173.000000
+!s107 C:/UWT/TCES330/labs/Processor/Data_Memory.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/UWT/TCES330/labs/Processor|C:/UWT/TCES330/labs/Processor/Data_Memory.v|
+!i113 1
+Z18 o-vlog01compat -work work
+Z19 !s92 -vlog01compat -work work +incdir+C:/UWT/TCES330/labs/Processor
+R14
+n@data_@memory
+vData_Path
+R1
+R2
+!i10b 1
+!s100 n?7B7TH3[nkz]XmhPEK442
+I_BUdkA^O[6FJ9[Yc^XOPA0
+R3
+!s105 Data_Path_sv_unit
+S1
+R0
+w1528317875
+8C:/UWT/TCES330/labs/Processor/Data_Path.sv
+FC:/UWT/TCES330/labs/Processor/Data_Path.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/UWT/TCES330/labs/Processor/Data_Path.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/UWT/TCES330/labs/Processor|C:/UWT/TCES330/labs/Processor/Data_Path.sv|
+!i113 1
+R12
+R13
+R14
+n@data_@path
+vData_Path_testbench
+R1
+R2
+!i10b 1
+!s100 0fLZLUlf5XR:HI7lITzVX3
+IbKfIg5:;iLB0niRFSPV]Q1
+R3
+!s105 Data_Path_testbench_sv_unit
+S1
+R0
+w1528342170
+8C:/UWT/TCES330/labs/Processor/Data_Path_testbench.sv
+FC:/UWT/TCES330/labs/Processor/Data_Path_testbench.sv
+L0 6
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/UWT/TCES330/labs/Processor/Data_Path_testbench.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/UWT/TCES330/labs/Processor|C:/UWT/TCES330/labs/Processor/Data_Path_testbench.sv|
+!i113 1
+R12
+R13
+R14
+n@data_@path_testbench
+vGenericDecoder
+R15
+!i10b 1
+!s100 9ozD]=JO8?i_9FUHEgLE33
+IAJh;0eNaN0_<XimzYYOL32
+R3
+R0
+w1528139840
+8C:/UWT/TCES330/labs/Processor/GenericDecoder2.v
+FC:/UWT/TCES330/labs/Processor/GenericDecoder2.v
+L0 6
+R8
+r1
+!s85 0
+31
+R17
+!s107 C:/UWT/TCES330/labs/Processor/GenericDecoder2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/UWT/TCES330/labs/Processor|C:/UWT/TCES330/labs/Processor/GenericDecoder2.v|
+!i113 1
+R18
+R19
+R14
+n@generic@decoder
+vMux_16_Bit_2_to_1
+R15
+!i10b 1
+!s100 O:<5KdG78IRSCG7Bi9?a[1
+I1Xon?m[D9b??QCTS6<e;@3
+R3
+R0
+w1527889465
+8C:/UWT/TCES330/labs/Processor/Mux_16_Bit_2_to_1.v
+FC:/UWT/TCES330/labs/Processor/Mux_16_Bit_2_to_1.v
+R16
+R8
+r1
+!s85 0
+31
+R17
+!s107 C:/UWT/TCES330/labs/Processor/Mux_16_Bit_2_to_1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/UWT/TCES330/labs/Processor|C:/UWT/TCES330/labs/Processor/Mux_16_Bit_2_to_1.v|
+!i113 1
+R18
+R19
+R14
+n@mux_16_@bit_2_to_1
+vRegisterDualOE
+R15
+!i10b 1
+!s100 bP:fgLiU2gW7ocgm7UGnU0
+I^CJ[EjElES?zng:Vnn8QJ0
+R3
+R0
+w1528134696
+8C:/UWT/TCES330/labs/Processor/RegisterDualOE.v
+FC:/UWT/TCES330/labs/Processor/RegisterDualOE.v
+L0 9
+R8
+r1
+!s85 0
+31
+R17
+!s107 C:/UWT/TCES330/labs/Processor/RegisterDualOE.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/UWT/TCES330/labs/Processor|C:/UWT/TCES330/labs/Processor/RegisterDualOE.v|
+!i113 1
+R18
+R19
+R14
+n@register@dual@o@e
+vRegisterFile
+R1
+R15
+!i10b 1
+!s100 ZH=iJmP3oW8Co6@Z>o8iL1
+IE?`b^a9a6cChO;J^h5nC`0
+R3
+!s105 RegegisterFile_sv_unit
+S1
+R0
+w1528340953
+8C:/UWT/TCES330/labs/Processor/RegegisterFile.sv
+FC:/UWT/TCES330/labs/Processor/RegegisterFile.sv
+L0 10
+R8
+r1
+!s85 0
+31
+R17
+!s107 C:/UWT/TCES330/labs/Processor/RegegisterFile.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/UWT/TCES330/labs/Processor|C:/UWT/TCES330/labs/Processor/RegegisterFile.sv|
+!i113 1
+R12
+R13
+R14
+n@register@file
