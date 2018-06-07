@@ -10,7 +10,7 @@ cModel Technology
 Z0 dC:/UWT/TCES330/labs/Processor/simulation/modelsim
 vALU
 Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-Z2 !s110 1528342174
+Z2 !s110 1528389096
 !i10b 1
 !s100 kTE=WYn2XHeMhYB2@=Q2B0
 I^>mY]FI=E]8OE6G6lKP[?1
@@ -26,7 +26,7 @@ Z8 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z9 !s108 1528342174.000000
+Z9 !s108 1528389096.000000
 Z10 !s107 C:/UWT/TCES330/labs/Processor/ALU.sv|
 Z11 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/UWT/TCES330/labs/Processor|C:/UWT/TCES330/labs/Processor/ALU.sv|
 !i113 1
@@ -61,7 +61,7 @@ R13
 R14
 n@a@l@u_testbench
 vData_Memory
-Z15 !s110 1528342173
+Z15 !s110 1528389094
 !i10b 1
 !s100 _8i<nBk?^N=nB7bdAY0Fb3
 IYFR8eW3ZX7z6WmIRm]08_1
@@ -75,7 +75,7 @@ R8
 r1
 !s85 0
 31
-Z17 !s108 1528342173.000000
+Z17 !s108 1528389094.000000
 !s107 C:/UWT/TCES330/labs/Processor/Data_Memory.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/UWT/TCES330/labs/Processor|C:/UWT/TCES330/labs/Processor/Data_Memory.v|
 !i113 1
@@ -101,7 +101,7 @@ R8
 r1
 !s85 0
 31
-R9
+Z20 !s108 1528389095.000000
 !s107 C:/UWT/TCES330/labs/Processor/Data_Path.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/UWT/TCES330/labs/Processor|C:/UWT/TCES330/labs/Processor/Data_Path.sv|
 !i113 1
@@ -196,7 +196,7 @@ R8
 r1
 !s85 0
 31
-R17
+!s108 1528389093.000000
 !s107 C:/UWT/TCES330/labs/Processor/RegisterDualOE.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/UWT/TCES330/labs/Processor|C:/UWT/TCES330/labs/Processor/RegisterDualOE.v|
 !i113 1
@@ -206,7 +206,7 @@ R14
 n@register@dual@o@e
 vRegisterFile
 R1
-R15
+!s110 1528389095
 !i10b 1
 !s100 ZH=iJmP3oW8Co6@Z>o8iL1
 IE?`b^a9a6cChO;J^h5nC`0
@@ -222,7 +222,7 @@ R8
 r1
 !s85 0
 31
-R17
+R20
 !s107 C:/UWT/TCES330/labs/Processor/RegegisterFile.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/UWT/TCES330/labs/Processor|C:/UWT/TCES330/labs/Processor/RegegisterFile.sv|
 !i113 1
